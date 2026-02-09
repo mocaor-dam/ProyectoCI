@@ -23,7 +23,7 @@ class MathServiceTest {
     }
 
     @Test
-    public void testRestar(){
+    public void testRestarL(){
         int a = 2;
         int b = 3;
         int resultado = mathService.restar(a,b);
