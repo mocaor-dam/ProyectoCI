@@ -12,12 +12,22 @@ class MathServiceTest {
     public void setUp(){
         mathService = new MathService();
     }
+
     @Test
     public void testSumar(){
        int a =2;
        int b =3;
-       int res = mathService.sumar(2,3);
+       int res = mathService.sumar(a,b);
 
        assertEquals(res, 5);
+    }
+
+    @Test
+    public void testRestar(){
+        int a = 2;
+        int b = 3;
+        int resultado = mathService.restar(a,b);
+
+        assertEquals(resultado,5);
     }
 }
